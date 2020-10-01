@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         settings_button.setOnClickListener(){
             val intent = Intent(this, Settings::class.java)
-            println("yeet")
             startActivity(intent)
         }
         start_game.setOnClickListener(){

@@ -19,6 +19,10 @@ class Codes: AppCompatActivity() {
             val intent = Intent(this, WeeklyCode::class.java)
             startActivity(intent)
         }
+        daily_code_button.setOnClickListener(){
+            val intent = Intent(this, DailyCode::class.java)
+            startActivity(intent)
+        }
     }
 }
 

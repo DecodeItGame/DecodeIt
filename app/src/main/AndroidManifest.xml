@@ -19,6 +19,7 @@
         <activity android:name=".Settings"/>
         <activity android:name=".Codes"/>
         <activity android:name=".WeeklyCode"/>
+        <activity android:name=".DailyCode"/>
     </application>
 
 </manifest>

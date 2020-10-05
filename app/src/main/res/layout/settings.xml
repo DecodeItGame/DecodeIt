@@ -21,15 +21,29 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/settings_title"
-        android:layout_width="417dp"
-        android:layout_height="125dp"
+        android:id="@+id/imageV"
+        android:layout_width="870dp"
+        android:layout_height="56dp"
+        android:background="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/shop_text"
+        android:layout_width="126dp"
+        android:layout_height="56dp"
+        android:foreground="@drawable/shop_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageV"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/settings_title" />
+        app:srcCompat="@drawable/shop_text"
+        tools:srcCompat="@drawable/shop_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

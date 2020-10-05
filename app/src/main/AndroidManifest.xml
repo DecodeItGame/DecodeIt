@@ -21,6 +21,7 @@
         <activity android:name=".Codes"/>
         <activity android:name=".WeeklyCode"/>
         <activity android:name=".DailyCode"/>
+        <activity android:name=".Shop"/>
     </application>
 
 </manifest>

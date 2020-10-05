@@ -23,6 +23,10 @@ class Codes: AppCompatActivity() {
             val intent = Intent(this, DailyCode::class.java)
             startActivity(intent)
         }
+        shop_button.setOnClickListener(){
+            val intent = Intent(this, Shop::class.java)
+            startActivity(intent)
+        }
     }
 }
 

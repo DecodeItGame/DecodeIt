@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.149" />
 
     <EditText
-        android:id="@+id/daily_input"
+        android:id="@+id/daily_input_0"
         android:layout_width="26dp"
         android:layout_height="40dp"
         android:ems="10"
